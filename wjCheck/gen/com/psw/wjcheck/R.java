@@ -11,6 +11,9 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        /**  按钮字体颜色 
+         */
+        public static final int btn_font_bg=0x7f040001;
         /**  主背景颜色,大红色 
          */
         public static final int red_main_bg=0x7f040000;
@@ -18,15 +21,22 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int icon_pelice=0x7f020001;
+        public static final int main_btn_bg=0x7f020002;
+        public static final int main_btn_click_bg=0x7f020003;
+        public static final int main_btn_unclick_bg=0x7f020004;
     }
     public static final class id {
-        public static final int imageView1=0x7f070000;
+        public static final int button_exit=0x7f070002;
+        public static final int button_start_rfid=0x7f070000;
+        public static final int button_sys_settings=0x7f070001;
+        public static final int textView1=0x7f070003;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
+        public static final int exit=0x7f050005;
         public static final int start_rfid=0x7f050003;
         public static final int sys_settings=0x7f050004;
         public static final int title=0x7f050001;
@@ -59,5 +69,7 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int BtnTextStyle=0x7f060003;
+        public static final int TitleStyle=0x7f060002;
     }
 }

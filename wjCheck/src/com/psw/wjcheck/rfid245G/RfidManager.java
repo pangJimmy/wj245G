@@ -196,10 +196,10 @@ public class RfidManager {
 						if(dataLen == 0x13){
 							byte[] id = new byte[4] ;
 							byte[] content = new byte[12] ;
-							System.arraycopy(buffer, index + 5, id, 0, 4) ;
-							System.arraycopy(buffer, index + 9, content, 0, 12) ;
-							Utils.LogE(tag, "ID:   "  + Tools.Bytes2HexString(id, 4)) ;
-							Utils.LogE(tag, "Content:   "  + Tools.Bytes2HexString(content, 12)) ;
+							System.arraycopy(buffer, index + 5, id, 0, id.length) ;
+							System.arraycopy(buffer, index + 9, content, 0, content.length) ;
+							Utils.LogE(tag, "ID:   "  + Tools.Bytes2HexString(id, id.length)) ;
+							Utils.LogE(tag, "Content:   "  + Tools.Bytes2HexString(content, content.length)) ;
 							map.put(Tools.Bytes2HexString(id, 4), content) ;
 						}
 						index = index + dataLen + 3 ;//指向下一个数据包

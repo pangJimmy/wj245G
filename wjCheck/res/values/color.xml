@@ -2,4 +2,6 @@
 <resources>
     <!-- 主背景颜色,大红色 -->
     <color name="red_main_bg">#ee2525</color>
+    <!-- 按钮字体颜色 -->
+    <color name="btn_font_bg">#00479d</color>
 </resources>

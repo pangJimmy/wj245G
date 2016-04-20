@@ -1,5 +1,6 @@
 package com.psw.wjcheck.activity;
 
+import com.psw.wjcheck.R;
 import com.psw.wjcheck.rfid245G.RfidManager;
 
 import android.app.Activity;
@@ -15,6 +16,7 @@ public class LoginActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_login) ;
 		RfidManager rfid = new RfidManager() ;
 		try {
 			Thread.sleep(2000) ;
