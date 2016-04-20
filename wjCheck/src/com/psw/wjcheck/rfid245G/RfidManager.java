@@ -182,6 +182,7 @@ public class RfidManager {
 	 */
 	private Map<String, byte[]> resolve(byte[] buffer, int len){
 		int index = 0 ;//每条数据包的起始位置
+		int ps ; 
 		int dataLen = 0 ; //数据内容长度
 		Map<String, byte[]> map = null ;
 		if(len > 3){
