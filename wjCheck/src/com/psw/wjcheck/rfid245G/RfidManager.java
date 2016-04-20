@@ -28,6 +28,7 @@ public class RfidManager {
 	private Handler mHandler ;
 	
 	private String tag = "RfidManager" ;
+	private int ss ;
 	
 	//清除缓存  0a ff 02 40 b5
 	//0a ff 03 42 01 b1 命令用于从缓存中获取标签ID号及可写区域内容
