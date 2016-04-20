@@ -4,4 +4,10 @@
     <color name="red_main_bg">#ee2525</color>
     <!-- 按钮字体颜色 -->
     <color name="btn_font_bg">#00479d</color>
+    <!-- 5182bb -->
+    <color name="btn_listview_title">#5182bb</color>
+    <!-- listview中深颜色 -->
+    <color name="list_dark">#cfd8e7</color>
+    <!-- listview中浅颜色 -->
+    <color name="list_light">#e9ecf3</color>
 </resources>

@@ -21,10 +21,38 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-    
+    <!-- 按钮文字风格 -->
     <style name="BtnTextStyle" >
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/btn_font_bg</item>
+    </style>
+    
+    <!-- 正常标题文字风格 -->
+    <style name="NormalTitleStyle" >
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <!-- 列表标题文字风格 -->
+    <style name="ListViewTitlstyle" >
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!-- 列表文字风格暗系 -->
+    <style name="ListViewDarkstyle" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/btn_font_bg</item>
+        <item name="android:background">@color/list_dark</item>
+    </style>
+    
+    <!-- 列表文字风格浅系 -->
+    <style name="ListViewLightstyle" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/btn_font_bg</item>
+        <item name="android:background">@color/list_light</item>
     </style>
 
 </resources>

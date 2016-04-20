@@ -7,4 +7,6 @@ package com.psw.wjcheck.entity;
 public class CarNumber {
 
 	private String carId ;//车牌号
+	
+	
 }

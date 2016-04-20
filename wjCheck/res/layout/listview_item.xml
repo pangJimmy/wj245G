@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+    
+
+        <TextView
+            android:id="@+id/item_tagID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            style="@style/ListViewDarkstyle"
+            android:padding="2dp"
+            android:layout_weight="4"
+            android:text="@string/tag_id" />
+        
+        <TextView
+            android:id="@+id/item_carID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            style="@style/ListViewDarkstyle"
+            android:padding="2dp"
+            android:layout_weight="4"
+            android:text="@string/car_id" />
+        <TextView
+            android:id="@+id/item_dengour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            style="@style/ListViewDarkstyle"
+            android:padding="2dp"
+            android:layout_weight="7"
+            android:text="@string/with_dengoures" />
+</LinearLayout>
