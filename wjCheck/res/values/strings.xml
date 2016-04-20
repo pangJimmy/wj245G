@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">危险品信息管理系统</string>
+	<string name="title">危险品信息管理系统</string>
+	<string name="unit_department">中国人民武装警察部队学院   工程六队</string>
+	<string name="start_rfid">开始RFID搜索</string>
+	<string name="sys_settings">系统设置</string>
+    
+</resources>

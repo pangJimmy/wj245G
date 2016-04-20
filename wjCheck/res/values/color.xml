@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主背景颜色,大红色 -->
+    <color name="red_main_bg">#ee2525</color>
+</resources>
